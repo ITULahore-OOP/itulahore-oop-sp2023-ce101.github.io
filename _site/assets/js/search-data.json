@@ -1,0 +1,284 @@
+{"0": {
+    "doc": "Student Progress",
+    "title": "Get Student Progress Chart",
+    "content": "Your Roll no: . Select options to add on chart. Quiz 1 Quiz 2 Assignment Lab A Lab B Request record ",
+    "url": "http://localhost:4000/StudentProgressReport/#get-student-progress-chart",
+    "relUrl": "/StudentProgressReport/#get-student-progress-chart"
+  },"1": {
+    "doc": "Student Progress",
+    "title": "Student Progress",
+    "content": "| ",
+    "url": "http://localhost:4000/StudentProgressReport/",
+    "relUrl": "/StudentProgressReport/"
+  },"2": {
+    "doc": "Announcements",
+    "title": "Announcements",
+    "content": " ",
+    "url": "http://localhost:4000/announcements/#announcements",
+    "relUrl": "/announcements/#announcements"
+  },"3": {
+    "doc": "Announcements",
+    "title": "Announcements",
+    "content": "| ",
+    "url": "http://localhost:4000/announcements/",
+    "relUrl": "/announcements/"
+  },"4": {
+    "doc": "Attendance",
+    "title": "Attendance",
+    "content": ". | Green for those students having 100% Attendance | Yellow for those students that can be terminated if they don’t improve their attendance | Red for students not fullfilling the attendance requirements. | . ",
+    "url": "http://localhost:4000/attendance/#attendance",
+    "relUrl": "/attendance/#attendance"
+  },"5": {
+    "doc": "Attendance",
+    "title": " Please Enter Your Roll No. ",
+    "content": "Search . | Registration No. Theory Attendance Lab Attendance | . ",
+    "url": "http://localhost:4000/attendance/",
+    "relUrl": "/attendance/"
+  },"6": {
+    "doc": "Attendance",
+    "title": "Attendance",
+    "content": "| ",
+    "url": "http://localhost:4000/attendance/",
+    "relUrl": "/attendance/"
+  },"7": {
+    "doc": "Calendar",
+    "title": "Calendar",
+    "content": " ",
+    "url": "http://localhost:4000/calendar/#calendar",
+    "relUrl": "/calendar/#calendar"
+  },"8": {
+    "doc": "Calendar",
+    "title": "Calendar",
+    "content": "| ",
+    "url": "http://localhost:4000/calendar/",
+    "relUrl": "/calendar/"
+  },"9": {
+    "doc": "Details",
+    "title": "Course Details",
+    "content": ". ",
+    "url": "http://localhost:4000/pages/details/#course-details",
+    "relUrl": "/pages/details/#course-details"
+  },"10": {
+    "doc": "Details",
+    "title": "About",
+    "content": "In contrast to procedural programming, object-oriented programming is about identifying and creating objects. They have both functions and data, this help in encapsulating functionality. Object Oriented Programming (OOP) is the most commonly used mode of computer programming owing to its construction and ability to break down complex problem into simpler components. In this course, C++ language is used to teach the fundamentals of OOP. ",
+    "url": "http://localhost:4000/pages/details/#about",
+    "relUrl": "/pages/details/#about"
+  },"11": {
+    "doc": "Details",
+    "title": "Details",
+    "content": " ",
+    "url": "http://localhost:4000/pages/details/",
+    "relUrl": "/pages/details/"
+  },"12": {
+    "doc": "Page of Fame",
+    "title": "Students",
+    "content": "A listing of all students who have performed best during each week . ",
+    "url": "http://localhost:4000/famepage/#students",
+    "relUrl": "/famepage/#students"
+  },"13": {
+    "doc": "Page of Fame",
+    "title": "Weekly Best Performer",
+    "content": " ",
+    "url": "http://localhost:4000/famepage/#weekly-best-performer",
+    "relUrl": "/famepage/#weekly-best-performer"
+  },"14": {
+    "doc": "Page of Fame",
+    "title": "Overall Top 3 Performers",
+    "content": " ",
+    "url": "http://localhost:4000/famepage/#overall-top-3-performers",
+    "relUrl": "/famepage/#overall-top-3-performers"
+  },"15": {
+    "doc": "Page of Fame",
+    "title": "Page of Fame",
+    "content": "| ",
+    "url": "http://localhost:4000/famepage/",
+    "relUrl": "/famepage/"
+  },"16": {
+    "doc": "Object Oriented Programming CE",
+    "title": "Spring 2023 - CE101 - OOP",
+    "content": "Announcements . ",
+    "url": "http://localhost:4000/#spring-2023---ce101---oop",
+    "relUrl": "/#spring-2023---ce101---oop"
+  },"17": {
+    "doc": "Object Oriented Programming CE",
+    "title": "Object Oriented Programming CE",
+    "content": "In contrast to procedural programming, object-oriented programming is about identifying and creating objects. They have both functions and data, this help in encapsulating functionality. Object Oriented Programming (OOP) is the most commonly used mode of computer programming owing to its construction and ability to break down complex problem into simpler components. In this course, C++ language is used to teach the fundamentals of OOP. ",
+    "url": "http://localhost:4000/",
+    "relUrl": "/"
+  },"18": {
+    "doc": "Key & Policy",
+    "title": "Key and Course Policy",
+    "content": " ",
+    "url": "http://localhost:4000/pages/details/key/#key-and-course-policy",
+    "relUrl": "/pages/details/key/#key-and-course-policy"
+  },"19": {
+    "doc": "Key & Policy",
+    "title": "Table of contents",
+    "content": ". | Key: | Attendance: | Attentiveness: | Time Management: | We Attitude: | Avoid Plagiarism: | Correlation in Components: | Crystal Clear Concepts: | . ",
+    "url": "http://localhost:4000/pages/details/key/#table-of-contents",
+    "relUrl": "/pages/details/key/#table-of-contents"
+  },"20": {
+    "doc": "Key & Policy",
+    "title": "Key:",
+    "content": ". ",
+    "url": "http://localhost:4000/pages/details/key/#key",
+    "relUrl": "/pages/details/key/#key"
+  },"21": {
+    "doc": "Key & Policy",
+    "title": "Attendance:",
+    "content": ". | Attendance will be marked in first 5 mins of the lecture, and anyone coming after attendance is marked, he/she will be considered absent. | University gives you 15 mins break between lectures, therefore consider my lectures to be 15 mins early if you are in habit of being late. | This 20% margin is to entertain all valid scenarios in life, anyone going below 80% attendance will not be allowed to sit in the examinations . | . ",
+    "url": "http://localhost:4000/pages/details/key/#attendance",
+    "relUrl": "/pages/details/key/#attendance"
+  },"22": {
+    "doc": "Key & Policy",
+    "title": "Attentiveness:",
+    "content": ". | You must stay attentive during the lecture, especially when instructor is delivering the concept. Distraction caused to instructor can result in deduction of one absolute mark . Possible distraction to instructor is either you are sleeping during the lecture or talking with class fellows. | You are encouraged to ask questions related to topic or previous topics that we have covered so far, this will help you in grasping the concepts during the lecture time. | . ",
+    "url": "http://localhost:4000/pages/details/key/#attentiveness",
+    "relUrl": "/pages/details/key/#attentiveness"
+  },"23": {
+    "doc": "Key & Policy",
+    "title": "Time Management:",
+    "content": ". | Semester System is different from yearly system, here you have to grasp during the lectures, if you delay things till the end of semester, you will possibly be in trouble. | Since you are studying multiple courses during the semester, therefore managing other courses is your own responsibility. | From this course perspective keep in mind that there will / can be a quiz in every class . | There will be two lab tasks each week , which will have deadline of the lab ending timings . In case you are unable to complete tasks with in lab timings, you can still submit till the end of day i.e. 11:59 pm, with 75% maximum marks . | To lab to be marked, you must bring printed submission of the task in immediate next lab else it will be marked zero . | Every week you will get an assignment with deadline of 11:59 pm of Sunday night. No late submissions allowed. | Therefore, it is suggested you create proper time slots for the course to avoid any inconvenience. | . ",
+    "url": "http://localhost:4000/pages/details/key/#time-management",
+    "relUrl": "/pages/details/key/#time-management"
+  },"24": {
+    "doc": "Key & Policy",
+    "title": "We Attitude:",
+    "content": ". | We are not in race with each other, therefore helping fellow members will not only help them in learning, but it will enhance your concepts and take you further. Therefore leave ‘ME” attitude of keeping things to yourself and adopt “WE” attitude . | Sharing solutions doesn’t come under “WE” attitude, as that won’t enable your friend or class fellows. That is actually a disservice to them. Enable them by explaining some relevant but different problems than the one assigned in lab or assignment to you. | . ",
+    "url": "http://localhost:4000/pages/details/key/#we-attitude",
+    "relUrl": "/pages/details/key/#we-attitude"
+  },"25": {
+    "doc": "Key & Policy",
+    "title": "Avoid Plagiarism:",
+    "content": ". | Plagiarism is presenting work as your submission when it was not actually produced by you . This includes copying fellows work, getting work done by seniors, family members or through outsourcing. In all above scenarios we will trace and penalise. | In case plagiarism is among your class fellows, both will get same penalty, irrespective of your participation as sharer or receiver. | So to detect this, not only we compare your code, but will also take viva or quiz , where we will ask to reproduce same concepts on a different problem, unable to justify, could lead to zero or greater penalty. | Case count is accumulative for both theory &amp; lab. | First such case of plagiarism detection will get you (Theory &amp; Lab) -5% absolute penalty . | Second such occurrence will result in -10% absolute penalty in theory and -20% absolute penalty in lab . | Third occurrence will result in disciplinary committee , potentially leading to F grade(s). | If any favour of removing few bad assignments or quizzes is introduced by the instructor at the end of the course, people with even single plagiarism case won’t qualify for it. | . ",
+    "url": "http://localhost:4000/pages/details/key/#avoid-plagiarism",
+    "relUrl": "/pages/details/key/#avoid-plagiarism"
+  },"26": {
+    "doc": "Key & Policy",
+    "title": "Correlation in Components:",
+    "content": ". | It has been observed that there is a correlation among results, as in if you are performing well in submission based tasks (Assignments, projects &amp; lab tasks) , so you should be able to earn similar marks with some small deviation in evaluations (quizzes &amp; exams) . In case if the submission based marks are more than reasonable in comparison, your submission based marks will be replaced by evaluation based marks. | . ",
+    "url": "http://localhost:4000/pages/details/key/#correlation-in-components",
+    "relUrl": "/pages/details/key/#correlation-in-components"
+  },"27": {
+    "doc": "Key & Policy",
+    "title": "Crystal Clear Concepts:",
+    "content": ". | In semester system every lecture / topic is connected to next topic, similarly every course is connected to next course. If you don’t keep your concepts clear, you might not only suffer in the respective course but that deficiency might carry on for the complete chain of courses. | Forget about rote learning, focus on concepts, understanding and skills. | If you keep discipline and ethics mentioned above, with eagerness to learn, you have In sha Allah a very bright future ahead. Happy Learning . :) | . ",
+    "url": "http://localhost:4000/pages/details/key/#crystal-clear-concepts",
+    "relUrl": "/pages/details/key/#crystal-clear-concepts"
+  },"28": {
+    "doc": "Key & Policy",
+    "title": "Key & Policy",
+    "content": " ",
+    "url": "http://localhost:4000/pages/details/key/",
+    "relUrl": "/pages/details/key/"
+  },"29": {
+    "doc": "Outlines",
+    "title": "Outlines",
+    "content": ". Both course outlines are tentative, and can be modified based on the students learning capabilities and response based on progress. ",
+    "url": "http://localhost:4000/pages/details/outlines/",
+    "relUrl": "/pages/details/outlines/"
+  },"30": {
+    "doc": "Outlines",
+    "title": "Theory",
+    "content": "Tentative Theory Course Outline . ",
+    "url": "http://localhost:4000/pages/details/outlines/#theory",
+    "relUrl": "/pages/details/outlines/#theory"
+  },"31": {
+    "doc": "Outlines",
+    "title": "Lab",
+    "content": "Tentative Lab Course Outline . ",
+    "url": "http://localhost:4000/pages/details/outlines/#lab",
+    "relUrl": "/pages/details/outlines/#lab"
+  },"32": {
+    "doc": "Parts",
+    "title": "Parts",
+    "content": ". All programming courses will have two parts (Theory &amp; Lab), these both are graded and evaluated separately, therefore performance in both is required. Breakdown of the percentage for each part of the course is as following: . ",
+    "url": "http://localhost:4000/pages/details/parts/",
+    "relUrl": "/pages/details/parts/"
+  },"33": {
+    "doc": "Parts",
+    "title": "Theory",
+    "content": ". ",
+    "url": "http://localhost:4000/pages/details/parts/#theory",
+    "relUrl": "/pages/details/parts/#theory"
+  },"34": {
+    "doc": "Parts",
+    "title": "Lab",
+    "content": ". ",
+    "url": "http://localhost:4000/pages/details/parts/#lab",
+    "relUrl": "/pages/details/parts/#lab"
+  },"35": {
+    "doc": "Schedule",
+    "title": "Weekly Schedule",
+    "content": ". | 8:00 AM | 8:30 AM | 9:00 AM | 9:30 AM | 10:00 AM | 10:30 AM | 11:00 AM | 11:30 AM | 12:00 PM | 12:30 PM | 1:00 PM | 1:30 PM | 2:00 PM | 2:30 PM | 3:00 PM | 3:30 PM | 4:00 PM | 4:30 PM | 5:00 PM | 5:30 PM | . | ",
+    "url": "http://localhost:4000/schedule/#weekly-schedule",
+    "relUrl": "/schedule/#weekly-schedule"
+  },"36": {
+    "doc": "Schedule",
+    "title": "Monday",
+    "content": ". | Lecture 8:00 AM–9:30 AM Programming Lab Level 4 | Lab 09:30 AM–11:00 AM Programming Lab Level 4 | . | ",
+    "url": "http://localhost:4000/schedule/",
+    "relUrl": "/schedule/"
+  },"37": {
+    "doc": "Schedule",
+    "title": "Tuesday",
+    "content": "| ",
+    "url": "http://localhost:4000/schedule/",
+    "relUrl": "/schedule/"
+  },"38": {
+    "doc": "Schedule",
+    "title": "Wednesday",
+    "content": "| ",
+    "url": "http://localhost:4000/schedule/",
+    "relUrl": "/schedule/"
+  },"39": {
+    "doc": "Schedule",
+    "title": "Thursday",
+    "content": "| ",
+    "url": "http://localhost:4000/schedule/",
+    "relUrl": "/schedule/"
+  },"40": {
+    "doc": "Schedule",
+    "title": "Friday",
+    "content": ". | Lecture 9:30 AM–11:00 AM Programming Lab Level 4 | Lab 11:00 AM–12:30 PM Programming Lab Level 4 | . | . Book UBS Appointment Book TA Appointment . ",
+    "url": "http://localhost:4000/schedule/",
+    "relUrl": "/schedule/"
+  },"41": {
+    "doc": "Schedule",
+    "title": "Schedule",
+    "content": " ",
+    "url": "http://localhost:4000/schedule/",
+    "relUrl": "/schedule/"
+  },"42": {
+    "doc": "Staff",
+    "title": "Staff",
+    "content": " ",
+    "url": "http://localhost:4000/staff/#staff",
+    "relUrl": "/staff/#staff"
+  },"43": {
+    "doc": "Staff",
+    "title": "Instructor",
+    "content": " ",
+    "url": "http://localhost:4000/staff/#instructor",
+    "relUrl": "/staff/#instructor"
+  },"44": {
+    "doc": "Staff",
+    "title": "Teaching Assistants",
+    "content": " ",
+    "url": "http://localhost:4000/staff/#teaching-assistants",
+    "relUrl": "/staff/#teaching-assistants"
+  },"45": {
+    "doc": "Staff",
+    "title": "Staff",
+    "content": "| ",
+    "url": "http://localhost:4000/staff/",
+    "relUrl": "/staff/"
+  },"46": {
+    "doc": "Tools",
+    "title": "Tools",
+    "content": ". Guide for Tools Reading Material for Github . ",
+    "url": "http://localhost:4000/pages/details/tools/",
+    "relUrl": "/pages/details/tools/"
+  }
+}
