@@ -1,5 +1,5 @@
 // analysis sheet Web app url
-const progressSheetUrl = "https://script.google.com/macros/s/AKfycbzzswV5DpJQLKQqX_s4690TrVePdh73j4FuJEb__muXLytCfWcdDLjJfCiZlqoFPlFRWg/exec"
+const progressSheetUrl = "https://script.google.com/macros/s/AKfycbxxVooJqZAoa7kY4iKEQiImm1YGXfqaC2v_teOJiAUqgXfKBd4DOGQVy5MoRptSog5lwQ/exec"
 //cuourse detail sheet Web app url
 const rollNumUrl = 'https://script.google.com/macros/s/AKfycbzAoD9CFcqEv0IXht7cQNwZTzlR4zmJyBsDGk79qozXbpXPpcdgEHzNzHt93TaZLgNyqQ/exec';
 const sheet = "attendance";
@@ -61,7 +61,7 @@ function setCheckBox(checkBoxId) {
 }
 
 function loadData(requested_rollNo) {
-    const rollNo = requested_rollNo;
+    const rollNo = requested_rollNo.toUpperCase();
     const quiz1ValSet = quiz1 == true ? "y" : "n";
     const quiz2ValSet = quiz2 == true ? "y" : "n";
     const assignmentValSet = assignment == true ? "y" : "n";
@@ -74,6 +74,7 @@ function loadData(requested_rollNo) {
         const stdData = data.data;
 
         let result = stdData.filter(e => e.registration_no == requested_rollNo.toUpperCase())
+        // console.log("result in uppercase :*** ", result)
 
         if (result.length > 0) {
             fetch(newURL).then((chatRep) => chatRep.json()).then((chartData) => {
