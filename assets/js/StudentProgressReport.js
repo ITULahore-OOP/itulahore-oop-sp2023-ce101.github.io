@@ -1,8 +1,10 @@
 // analysis sheet Web app url
-const progressSheetUrl = "https://script.google.com/macros/s/AKfycbxxVooJqZAoa7kY4iKEQiImm1YGXfqaC2v_teOJiAUqgXfKBd4DOGQVy5MoRptSog5lwQ/exec"
+// const progressSheetUrl = "https://script.google.com/macros/s/AKfycbwhaB64SCi3CPWof11lpd9tgJJeUqerhqoiamuJwyhtBQ9-BwkL__hoCk5MZACiztof1g/exec"
+const progressSheetUrl = "https://script.google.com/macros/s/AKfycby15Vqqu5HuyhpO2D3E2a1pskupqHe5lqtXA_h0iWBchzSfdXosCtXv2iG-LlaUQBnYnQ/exec"
 //cuourse detail sheet Web app url
 const rollNumUrl = 'https://script.google.com/macros/s/AKfycbzAoD9CFcqEv0IXht7cQNwZTzlR4zmJyBsDGk79qozXbpXPpcdgEHzNzHt93TaZLgNyqQ/exec';
 const sheet = "attendance";
+const progressSheetName = "StudentProgressChart";
 const urlForRollNo = rollNumUrl + '?data=' + sheet;
 
 let quiz1 = false;
@@ -68,7 +70,7 @@ function loadData(requested_rollNo) {
     const labAValSet = labA == true ? "y" : "n";
     const labBValSet = labB == true ? "y" : "n";
 
-    const newURL = progressSheetUrl + "?rollNo=" + rollNo + "&quiz1=" + quiz1ValSet + "&quiz2=" + quiz2ValSet + "&assignment=" + assignmentValSet + "&labA=" + labAValSet + "&labB=" + labBValSet;
+    const newURL = progressSheetUrl + "?rollNo=" + rollNo + "&sheetName=" + progressSheetName + "&quiz1=" + quiz1ValSet + "&quiz2=" + quiz2ValSet + "&assignment=" + assignmentValSet + "&labA=" + labAValSet + "&labB=" + labBValSet;
 
     fetch(urlForRollNo).then((rep) => rep.json()).then((data) => {
         const stdData = data.data;

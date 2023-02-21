@@ -13,12 +13,12 @@ A listing of all students who have performed best during each week
 
 <div id="top_std_of_week">
 </div>
-
+<div class="loader" id="loader1"></div>
 ## Overall Top 3 Performers 
 
 <div id="overall_top_std">
 </div>
+<div class="loader" id="loader2"></div>
 
-<div class="loader" id="loader"></div>
 <script src="/assets/js/famePage.js">
 </script>

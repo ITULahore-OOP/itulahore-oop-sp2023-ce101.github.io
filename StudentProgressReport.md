@@ -2,7 +2,7 @@
 layout: page
 title: Student Progress
 nav_order: 5
-description: Listing of course modules and topics.
+description: Individual Student Progress Report.
 ---
 <link rel="stylesheet" href="/assets/css/StudentProgressReport.css">
 

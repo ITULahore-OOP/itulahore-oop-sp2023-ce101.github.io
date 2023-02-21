@@ -7,7 +7,6 @@ loadData();
 // console.log("newURL",newURL)
 function loadData() {
     fetch(newURL).then((rep) => rep.json()).then((data) => {
-        // console.log("this is somethins", data.data.map(e => e))
         loading.remove();
         const listData = data.data;
         mapThroughData(listData)
@@ -15,7 +14,6 @@ function loadData() {
 }
 
 function mapThroughData(data) {
-    // console.log("data inside mapThroughData 23:::", data)
     data.reverse().map(item => {
         if (item.visible == "y") {
             createContent(item)
@@ -25,7 +23,7 @@ function mapThroughData(data) {
 
 function createContent(item) {
 
-    console.log("item", item)
+    // console.log("item", item)
     let calendarDiv = document.getElementById("calendar_container");
     let calendarContainer = document.createElement("div");
     calendarContainer.classList.add("module");
@@ -54,10 +52,11 @@ function createContent(item) {
     ${item.notice_b_date == "" || item.notice_b_date == "n" ? "" : createNoticeList(noticeB_d, item.notice_b)}
     ${item.lec_a_date == "" || item.lec_a_date == "n" ? "" : createLecList(lecA_d, item.lec_a_makeup, item.lec_a_topic, item.lec_a_link, item.quiz_a_link, item.quiz_a_sol_link)}
     ${item.lab_a_date == "" || item.lab_a_date == "n" ? "" : createLabList(item.lab_a_makeup, labA_d, item.lab_a, item.lab_a_link, item.lab_a_sol_link, item.lab_a_deadline_time)}
+    ${item.lec_a_add_resources == "" || item.lec_a_add_resources == "n" ? "" : createAdditionalList(item.week, item.lec_a_add_resources, item.lec_a_link_resources, labA_d)}
     ${item.lec_b_date == "" || item.lec_b_date == "n" ? "" : createLecList(lecB_d, item.lec_b_makeup, item.lec_b_topic, item.lec_b_link, item.quiz_b_link, item.quiz_b_sol_link)}
     ${item.lab_b_date == "" || item.lab_b_date == "n" ? "" : createLabList(item.lab_b_makeup, labB_d, item.lab_b, item.lab_b_link, item.lab_b_sol_link, item.lab_b_deadline_time)}
     ${item.assignment_date == "" || item.assignment_date == "n" ? "" : createAssignmentList(assign_d, item.assignment_no, item.assignment_link, item.assignment_sol_link, item.assign_deadline_time)}
-    ${item.additional_title == "" || item.additional_title == "n" ? "" : createAdditionalList(item.week, item.additional_title, item.additional_link)}
+    ${item.lec_b_add_resources == "" || item.lec_b_add_resources == "n" ? "" : createAdditionalList(item.week, item.lec_b_add_resources, item.lec_b_link_resources, labB_d)}
     ` : ""}`
 
     calendarContainer.innerHTML = cardDHTML;
@@ -125,13 +124,14 @@ function createAssignmentList(date, AssignmentNo, assignmentLink, assignmentSolL
     `)
 }
 
-function createAdditionalList(week, title, link) {
+function createAdditionalList(week, title, link, lec) {
+    // console.log("link", link)
     return (`
     <dl>
-        <dt>${week}</dt>
+        <dt>${lec}</dt>
         <dd>                
             <strong class="label label-red">Additional Resources</strong>
-            ${link == "n" || link == "" ? `${title}` : `<strong><a href=${link}>${title}</a></strong>`}
+            ${ link == "n" || link == "" ? `${title}` : `<strong><a href=${link}>${title}</a></strong>`}
             &emsp;
         </dd>
     </dl>

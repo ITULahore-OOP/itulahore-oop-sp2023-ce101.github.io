@@ -22,7 +22,7 @@ function getUserRollNumber() {
     if (!rollNumber.trim().length) {
         loading.classList.add("d-none");
         errorMsg.innerText = "Please enter Roll No."
-    } else {
+    } else { 
         const value = rollNumber.split(' ').join('');
         const sheet = "attendance";
         const newURL = url + '?data=' + sheet;
